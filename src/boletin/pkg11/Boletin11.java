@@ -17,12 +17,12 @@ public class Boletin11 {
     public static void main(String[] args) {
        
         long timestart, timeend;
-        JOptionPane.showMessageDialog(null, "ESCRIBE A SEGUINTE FRASE :");
+        JOptionPane.showMessageDialog(null, "ESCRIBE LA SIGUIENTE FRASE :");
         timestart = System.currentTimeMillis();
-        JOptionPane.showInputDialog("\nA documentación é todo aquel conxunto de manuais impresos ou en formato dixital que explique unha aplicación informática ");
+        JOptionPane.showInputDialog("\n A documentación é todo aquel conxunto de manuais impresos ou en formato dixital que explique unha aplicación informática ");
         timeend = System.currentTimeMillis();
         JOptionPane.showMessageDialog(null, "PREME ENTER PARA REMATAR");
-        JOptionPane.showMessageDialog(null, " TARDACHES " + (timeend - timestart) / 1000 + " SEGUNDOS EN ESCRIBIR A FRASE");
+        JOptionPane.showMessageDialog(null, " TARDASTE " + (timeend - timestart) / 1000 + " SEGUNDOS EN ESCRIBIR LA FRASE");
     }
 }
     
